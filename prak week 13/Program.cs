@@ -26,7 +26,7 @@ namespace prak_week_13
                 {
                     for (int x = 1; x < i; x++)
                     {
-                        if (nim[i].Contains(nim[x]) == true)
+                        while (nim[i].Contains(nim[x]) == true)
                         {
                             Console.WriteLine("NIM SUDAH ADA, MASUKKAN NIM LAIN !!!");
                             Console.Write("NIM              : ");
@@ -75,7 +75,7 @@ namespace prak_week_13
 
                         for (int x = 1; x < jumlah + i; x++)
                         {
-                            if (nim[jumlah + i].Contains(nim[x]) == true)
+                            while (nim[jumlah + i].Contains(nim[x]) == true)
                             {
                                 Console.WriteLine("NIM SUDAH ADA, MASUKKAN NIM LAIN !!!");
                                 Console.Write("NIM              : ");
